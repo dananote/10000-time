@@ -1,0 +1,50 @@
+form {
+    margin-top: 100px;
+    font-family: var(--main);
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+form p input {
+    width: 228px;
+    height:56px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: var(--main);
+    border: none;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.form-down {
+    margin-top: 28px;
+}
+
+form p input::placeholder {
+    color: #BABCBE;
+    font-size: 24px;
+}
+
+.submit-btn {
+    margin-top: 152px;
+    padding: 20px 50px;
+    background-color: #FCEE21;
+    border-radius: 50px;
+    border: none;
+    font-family: 'GmarketSansBold';
+    color: #5B2386;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+form::after {
+    content: '';
+    display: inline-block;
+    width: 64px;
+    height: 72px;
+    background: url('../../../public/img/click.png') no-repeat center;
+    position: absolute;
+    bottom: -10px;
+}

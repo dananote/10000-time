@@ -1,0 +1,44 @@
+
+.qre {
+    font-family: 'OTEnjoystoriesBA';
+    text-align: center;
+    font-size: 36px;
+    color: #F5DF4D;
+    margin-top: 46px;
+}
+
+.quotes {
+    margin-top: 78px;
+    display:flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.quotes::after {
+    content: '';
+    display: block;
+    width: 46px;
+    height:96px;
+    background: url('../../../public/img/quotes-right.svg')no-repeat top;
+}
+
+.quotes::before {
+    content: '';
+    display: block;
+    width: 46px;
+    height: 96px;
+    background: url('../../../public/img/quotes-left.svg')no-repeat top;
+}
+
+.quotes-text {
+    font-family: var(--main);
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.quotes-text strong {
+    font-family: 'GmarketSansBold';
+    font-size: 24px;
+}

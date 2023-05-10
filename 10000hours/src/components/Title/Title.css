@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 564px;
+    height: 265px;
+    background: url('../../../public/img/logo.svg') no-repeat center ;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100%;
+}
